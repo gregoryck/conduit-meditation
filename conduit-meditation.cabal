@@ -1,0 +1,23 @@
+name:              conduit-meditation
+version:           0.0.1
+license:           BSD3
+license-file:      LICENSE
+author:            Gregory Kettler
+maintainer:        Gregory Kettler
+synopsis:          I'm just playing with conduits
+description:       That's the joke.
+category:          Trying things out
+stability:         Highly Experimental
+cabal-version:     >= 1.8
+build-type:        Simple
+homepage:          http://pitchmonad.thefamilyatomics.com/
+
+
+executable         conduit-meditation
+    main-is:           conduit-meditation.hs
+    build-depends:     base
+                     , conduit == 0.2.2
+                     , text
+                     , bytestring
+                     , resourcet
+
